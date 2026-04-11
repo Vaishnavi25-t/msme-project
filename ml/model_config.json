@@ -1,0 +1,46 @@
+{
+  "categorical_features": [
+    "sector"
+  ],
+  "numeric_features": [
+    "daily_sales",
+    "daily_expenses",
+    "cash_balance",
+    "total_receivables",
+    "overdue_receivables",
+    "avg_delay_days",
+    "monthly_expenses"
+  ],
+  "sector_weights": {
+    "Retail": {
+      "ER": 0.35,
+      "RS": 0.15,
+      "CBS": 0.3,
+      "BRS": 0.2
+    },
+    "Manufacturing": {
+      "ER": 0.25,
+      "RS": 0.3,
+      "CBS": 0.25,
+      "BRS": 0.2
+    },
+    "Wholesale": {
+      "ER": 0.2,
+      "RS": 0.35,
+      "CBS": 0.25,
+      "BRS": 0.2
+    },
+    "Food_Beverage": {
+      "ER": 0.35,
+      "RS": 0.1,
+      "CBS": 0.25,
+      "BRS": 0.3
+    },
+    "Textile": {
+      "ER": 0.25,
+      "RS": 0.3,
+      "CBS": 0.2,
+      "BRS": 0.25
+    }
+  }
+}
