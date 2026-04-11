@@ -1,0 +1,4 @@
+com\msme\analyzer\controller\AnalyzerController.class
+com\msme\analyzer\MsmeBackendApplication.class
+com\msme\analyzer\repository\TransactionRepository.class
+com\msme\analyzer\model\Transaction.class
