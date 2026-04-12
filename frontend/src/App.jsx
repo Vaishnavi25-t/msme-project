@@ -20,8 +20,8 @@ export default function App() {
     setResult(null);
  
     try {
-      // Send data to Java backend on port 8080
-      const response = await fetch('http://localhost:8080/api/analyze', {
+      // Send data to Java backend on port 8082
+      const response = await fetch('http://localhost:8082/api/analyze', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify(formData),
